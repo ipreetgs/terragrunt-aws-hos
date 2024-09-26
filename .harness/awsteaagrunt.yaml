@@ -52,6 +52,9 @@ pipeline:
                           value: <+secrets.getValue("JFROG_TOKEN")>
                           type: String
                       exportTerragruntPlanJson: true
+                      commandFlags:
+                        - commandType: PLAN
+                          flag: "-out=tfplan.out"
                     provisionerIdentifier: dev
                   timeout: 10m
               - step:
