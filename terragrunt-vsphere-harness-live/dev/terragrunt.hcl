@@ -7,7 +7,7 @@ remote_state {
   config = {
     hostname = "preettx2.jfrog.io"
     organization = "demotxe"
-    token = local.jfrog_tokensss
+    token = local.jfrog_token
 }
 }
 
