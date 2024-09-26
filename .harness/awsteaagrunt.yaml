@@ -40,7 +40,7 @@ pipeline:
                           spec:
                             gitFetchType: Branch
                             connectorRef: account.Github_OAuth_1702454216196
-                            repoName: terragrunt-aws-hos
+                            repoName: ipreetgs/terragrunt-aws-hos
                             branch: main
                             folderPath: .
                       moduleConfig:
